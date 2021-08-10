@@ -1,7 +1,8 @@
-import React from 'react';
+import React,{useState} from 'react';
 import "bootstrap/dist/css/bootstrap.min.css"
 import "react-toasify/dist/ReactToastify.css"
 import './App.css';
+import {toast} from "react-toastify";
 
 const App=()=> {
   const [cartItem,setCartItem]=useState([])
@@ -17,10 +18,20 @@ const App=()=> {
       }
 
       setCartItem([...cartItem,item])
-
-    
-
   }
+
+  const buyNow=()=>{
+    setCartItem([])
+
+    toast("Purchase Complete",{
+      type:'success'
+    });
+  }
+
+  const removeItem=item=>{
+    setCartItem(cartItem.filter(singleItem=>singleItem.id!==item.id))
+  };
+
   return (
     <div className="App">
       <header className="App-header">
