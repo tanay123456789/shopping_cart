@@ -24,7 +24,7 @@ const App=()=> {
     setCartItem([])
 
     toast("Purchase Complete",{
-      type:'success'
+      type:"success"
     });
   }
 

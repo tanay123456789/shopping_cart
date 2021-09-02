@@ -1,0 +1,134 @@
+{
+    "page": 1,
+    "per_page": 6,
+    "photos": [
+        {
+            "id": 3965545,
+            "width": 4000,
+            "height": 2670,
+            "url": "https://www.pexels.com/photo/clothes-hanged-on-clothes-rack-3965545/",
+            "photographer": "Ksenia Chernaya",
+            "photographer_url": "https://www.pexels.com/@kseniachernaya",
+            "photographer_id": 1005150,
+            "avg_color": "#ABA699",
+            "src": {
+                "original": "https://images.pexels.com/photos/3965545/pexels-photo-3965545.jpeg",
+                "large2x": "https://images.pexels.com/photos/3965545/pexels-photo-3965545.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                "large": "https://images.pexels.com/photos/3965545/pexels-photo-3965545.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+                "medium": "https://images.pexels.com/photos/3965545/pexels-photo-3965545.jpeg?auto=compress&cs=tinysrgb&h=350",
+                "small": "https://images.pexels.com/photos/3965545/pexels-photo-3965545.jpeg?auto=compress&cs=tinysrgb&h=130",
+                "portrait": "https://images.pexels.com/photos/3965545/pexels-photo-3965545.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+                "landscape": "https://images.pexels.com/photos/3965545/pexels-photo-3965545.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "tiny": "https://images.pexels.com/photos/3965545/pexels-photo-3965545.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+            },
+            "liked": false
+        },
+        {
+            "id": 5709661,
+            "width": 3633,
+            "height": 5449,
+            "url": "https://www.pexels.com/photo/different-apparel-on-stand-in-clothing-shop-5709661/",
+            "photographer": "Sam Lion",
+            "photographer_url": "https://www.pexels.com/@sam-lion",
+            "photographer_id": 3657919,
+            "avg_color": "#70675F",
+            "src": {
+                "original": "https://images.pexels.com/photos/5709661/pexels-photo-5709661.jpeg",
+                "large2x": "https://images.pexels.com/photos/5709661/pexels-photo-5709661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                "large": "https://images.pexels.com/photos/5709661/pexels-photo-5709661.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+                "medium": "https://images.pexels.com/photos/5709661/pexels-photo-5709661.jpeg?auto=compress&cs=tinysrgb&h=350",
+                "small": "https://images.pexels.com/photos/5709661/pexels-photo-5709661.jpeg?auto=compress&cs=tinysrgb&h=130",
+                "portrait": "https://images.pexels.com/photos/5709661/pexels-photo-5709661.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+                "landscape": "https://images.pexels.com/photos/5709661/pexels-photo-5709661.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "tiny": "https://images.pexels.com/photos/5709661/pexels-photo-5709661.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+            },
+            "liked": false
+        },
+        {
+            "id": 5490974,
+            "width": 5472,
+            "height": 3648,
+            "url": "https://www.pexels.com/photo/clothes-hanged-on-a-clothes-rack-5490974/",
+            "photographer": "Rachel Claire",
+            "photographer_url": "https://www.pexels.com/@rachel-claire",
+            "photographer_id": 2272619,
+            "avg_color": "#ACA49B",
+            "src": {
+                "original": "https://images.pexels.com/photos/5490974/pexels-photo-5490974.jpeg",
+                "large2x": "https://images.pexels.com/photos/5490974/pexels-photo-5490974.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                "large": "https://images.pexels.com/photos/5490974/pexels-photo-5490974.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+                "medium": "https://images.pexels.com/photos/5490974/pexels-photo-5490974.jpeg?auto=compress&cs=tinysrgb&h=350",
+                "small": "https://images.pexels.com/photos/5490974/pexels-photo-5490974.jpeg?auto=compress&cs=tinysrgb&h=130",
+                "portrait": "https://images.pexels.com/photos/5490974/pexels-photo-5490974.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+                "landscape": "https://images.pexels.com/photos/5490974/pexels-photo-5490974.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "tiny": "https://images.pexels.com/photos/5490974/pexels-photo-5490974.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+            },
+            "liked": false
+        },
+        {
+            "id": 4210866,
+            "width": 4188,
+            "height": 6282,
+            "url": "https://www.pexels.com/photo/stack-of-jeans-on-white-shelf-4210866/",
+            "photographer": "Karolina Grabowska",
+            "photographer_url": "https://www.pexels.com/@karolina-grabowska",
+            "photographer_id": 2332540,
+            "avg_color": "#C5CDD2",
+            "src": {
+                "original": "https://images.pexels.com/photos/4210866/pexels-photo-4210866.jpeg",
+                "large2x": "https://images.pexels.com/photos/4210866/pexels-photo-4210866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                "large": "https://images.pexels.com/photos/4210866/pexels-photo-4210866.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+                "medium": "https://images.pexels.com/photos/4210866/pexels-photo-4210866.jpeg?auto=compress&cs=tinysrgb&h=350",
+                "small": "https://images.pexels.com/photos/4210866/pexels-photo-4210866.jpeg?auto=compress&cs=tinysrgb&h=130",
+                "portrait": "https://images.pexels.com/photos/4210866/pexels-photo-4210866.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+                "landscape": "https://images.pexels.com/photos/4210866/pexels-photo-4210866.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "tiny": "https://images.pexels.com/photos/4210866/pexels-photo-4210866.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+            },
+            "liked": false
+        },
+        {
+            "id": 4498143,
+            "width": 4349,
+            "height": 6523,
+            "url": "https://www.pexels.com/photo/crop-person-packing-jeans-into-carton-container-4498143/",
+            "photographer": "Karolina Grabowska",
+            "photographer_url": "https://www.pexels.com/@karolina-grabowska",
+            "photographer_id": 2332540,
+            "avg_color": "#CEC2BB",
+            "src": {
+                "original": "https://images.pexels.com/photos/4498143/pexels-photo-4498143.jpeg",
+                "large2x": "https://images.pexels.com/photos/4498143/pexels-photo-4498143.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                "large": "https://images.pexels.com/photos/4498143/pexels-photo-4498143.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+                "medium": "https://images.pexels.com/photos/4498143/pexels-photo-4498143.jpeg?auto=compress&cs=tinysrgb&h=350",
+                "small": "https://images.pexels.com/photos/4498143/pexels-photo-4498143.jpeg?auto=compress&cs=tinysrgb&h=130",
+                "portrait": "https://images.pexels.com/photos/4498143/pexels-photo-4498143.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+                "landscape": "https://images.pexels.com/photos/4498143/pexels-photo-4498143.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "tiny": "https://images.pexels.com/photos/4498143/pexels-photo-4498143.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+            },
+            "liked": false
+        },
+        {
+            "id": 1030946,
+            "width": 2448,
+            "height": 3059,
+            "url": "https://www.pexels.com/photo/close-up-photo-of-three-sweatshirts-1030946/",
+            "photographer": "Daria Shevtsova",
+            "photographer_url": "https://www.pexels.com/@daria",
+            "photographer_id": 220024,
+            "avg_color": "#9D9CA0",
+            "src": {
+                "original": "https://images.pexels.com/photos/1030946/pexels-photo-1030946.jpeg",
+                "large2x": "https://images.pexels.com/photos/1030946/pexels-photo-1030946.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                "large": "https://images.pexels.com/photos/1030946/pexels-photo-1030946.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+                "medium": "https://images.pexels.com/photos/1030946/pexels-photo-1030946.jpeg?auto=compress&cs=tinysrgb&h=350",
+                "small": "https://images.pexels.com/photos/1030946/pexels-photo-1030946.jpeg?auto=compress&cs=tinysrgb&h=130",
+                "portrait": "https://images.pexels.com/photos/1030946/pexels-photo-1030946.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+                "landscape": "https://images.pexels.com/photos/1030946/pexels-photo-1030946.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "tiny": "https://images.pexels.com/photos/1030946/pexels-photo-1030946.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+            },
+            "liked": false
+        }
+    ],
+    "total_results": 8000,
+    "next_page": "https://api.pexels.com/v1/search/?page=2&per_page=6&query=clothes"
+}
