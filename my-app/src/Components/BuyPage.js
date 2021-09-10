@@ -16,7 +16,7 @@ const url="https://api.pexels.com/v1/search?query=clothes&per_page=6&page=1"
 const BuyPage=({addInCart})=>{
 
     const [product,setProduct]=useState([])
-    const fetchPhotos=async()=>{
+    const FetchPhotos=async()=>{
         const response=await Axios.get(url,{
             header:{
                 Authorization:apiKey
@@ -32,22 +32,12 @@ const BuyPage=({addInCart})=>{
             id:random.uuid() 
 
         }))
+        setProduct(allProduct)
         useEffect(() => {
-            fetchPhotos();
+            FetchPhotos();
         }, []);
 
-        return(
-            <Container fluid>
-                <h1 className="text-success texxt-center">
-                    Buy Page
-                </h1>
-                <Row>
-                    {product.map(product=>(
-                        <span key={product.id}>{product.productName}</span>
-                    ))}
-                </Row>
-            </Container>
-        )
+        
 
     }
 }
