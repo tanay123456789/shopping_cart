@@ -23,16 +23,38 @@ const BuyPage=({addInCart})=>{
             }
         })
         const { photos } = data;
+
+        const allProduct=photos.map(photo=>({
+            smallimage:photo.src.medium,
+            tinyImage:photo.src.tiny,
+            productName:random.word(),
+            productPrice:commerce.price(),
+            id:random.uuid() 
+
+        }))
         useEffect(() => {
             fetchPhotos();
         }, []);
-};
-    }
 
+        return(
+            <Container fluid>
+                <h1 className="text-success texxt-center">
+                    Buy Page
+                </h1>
+                <Row>
+                    {product.map(product=>(
+                        <span key={product.id}>{product.productName}</span>
+                    ))}
+                </Row>
+            </Container>
+        )
+
+    }
 }
 
 
-export default BuyPage
+
+export default BuyPage;
 
 
 

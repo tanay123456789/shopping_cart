@@ -1,8 +1,9 @@
 import React,{useState} from 'react';
 import "bootstrap/dist/css/bootstrap.min.css"
-import "react-toasify/dist/ReactToastify.css"
+import "react-toastify/dist/react-toastify.css"
 import './App.css';
 import {toast} from "react-toastify";
+import BuyPage from './Components/BuyPage';
 
 const App=()=> {
   const [cartItem,setCartItem]=useState([])
@@ -34,9 +35,8 @@ const App=()=> {
 
   return (
     <div className="App">
-      <header className="App-header">
-        
-      </header>
+      <BuyPage addInCart={addInCart}/>
+     
     </div>
   );
 }
