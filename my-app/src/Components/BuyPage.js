@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from "react"
-import {Axios} from "axios";
+import Axios from "axios";
 
 import { random,commerce } from "faker";
 import {Container,Col,Row} from "reactstrap"
@@ -22,7 +22,9 @@ const BuyPage=({addInCart})=>{
                 Authorization:apiKey
             }
         })
-        const { photos } = data;
+
+        const {photos}=response.data;
+
 
         const allProduct=photos.map(photo=>({
             smallimage:photo.src.medium,
@@ -36,6 +38,18 @@ const BuyPage=({addInCart})=>{
         useEffect(() => {
             FetchPhotos();
         }, []);
+        return(
+            <Container fluid>
+                <h1 className="text-success text-center">
+                    Buy Page
+                </h1>
+                <Row>
+                    {product.map(product=>(
+                        <span key={product.id}>{product.productName}</span>
+                    ))}
+                </Row>
+            </Container>
+        )
 
         
 
