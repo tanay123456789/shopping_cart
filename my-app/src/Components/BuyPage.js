@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from "react"
 import Axios from "axios";
 
-import { random,commerce } from "faker";
+import { random,commerce,datatype } from "faker";
 import {Container,Col,Row} from "reactstrap"
 
 
@@ -14,6 +14,7 @@ const url="https://api.pexels.com/v1/search?query=clothes&per_page=6&page=1"
 
 
 const BuyPage=({addInCart})=>{
+    
 
     const [product,setProduct]=useState([])
     const FetchPhotos=async()=>{
@@ -31,10 +32,12 @@ const BuyPage=({addInCart})=>{
             tinyImage:photo.src.tiny,
             productName:random.word(),
             productPrice:commerce.price(),
-            id:random.uuid() 
+            id:datatype.uuid() 
 
-        }))
+        }));
         setProduct(allProduct)
+    }
+    
         useEffect(() => {
             FetchPhotos();
         }, []);
@@ -53,7 +56,7 @@ const BuyPage=({addInCart})=>{
 
         
 
-    }
+    
 }
 
 
