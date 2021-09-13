@@ -1,8 +1,10 @@
 import React,{useState,useEffect} from "react"
 import Axios from "axios";
+import cartItem from "./CartItem";
 
 import { random,commerce,datatype } from "faker";
 import {Container,Col,Row} from "reactstrap"
+import CartItem from "./CartItem";
 
 
 const apiKey=process.env.REACT_APP_API_KEY;
@@ -48,7 +50,12 @@ const BuyPage=({addInCart})=>{
                 </h1>
                 <Row>
                     {product.map(product=>(
-                        <span key={product.id}>{product.productName}</span>
+                        <Col md={4} key={product.id}>
+                            <CartItem product={product} 
+                            addInCart={addInCart}/>
+
+                        </Col>
+                        
                     ))}
                 </Row>
             </Container>
